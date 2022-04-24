@@ -1,10 +1,16 @@
 *{box-sizing: border-box;}
-
+html{position: relative;}
 body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
 }
 
 #weather-card{
@@ -17,16 +23,28 @@ body{
     padding: 15px;
     max-width: 300px;
     position: absolute;
-    left: 5px;
-    top: 5px;
+    left: 10%;
+    top: 12%;
    
 }
 
-
-.metric input{
-    display: none;
+.metric{
+    position: absolute;
+    right:5%;
+    top: 10px;
 }
 
-.metric{
-    position: relative;
+#forecast-card-deck{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    display: flex;
+
+}
+
+.card{
+    min-width: 150px;
+    max-width: 250px;
+    width: 5%;
+    border: 2px solid black;
 }
