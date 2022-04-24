@@ -36,10 +36,10 @@ body{
 
 #forecast-card-deck{
     position: absolute;
-    bottom: 5%;
+    bottom: 8%;
     width: 100%;
     display: flex;
-
+    justify-content: space-around;
 }
 
 .card{
@@ -47,4 +47,6 @@ body{
     max-width: 250px;
     width: 5%;
     border: 2px solid black;
+    text-align: center;
+  
 }
