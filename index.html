@@ -10,56 +10,73 @@
 </head>
 <body>
 
+<!-- Preview of the current weather -->
+<div id="temp-preview">
+  <p class="temp">25</p>
+  <img src="images/cloud.png" width="130px" height="80px" alt="cloud">
+
+</div>
+<div id="city-name-container">
+  <p class="cityname">Miami</p>
+</div>
+
+  <!-- input field -->
+    <!-- replace button in the future -->
+    <div><input type="text" placeholder="Location" id="location-input"><button id="search-btn">search </button></div> 
+    
+
 <!-- weather card -->
     <div id="weather-card">
-      <h4 id="card-heading">
-        <span class="cityname">Miami</span>
-        <span class="state">Fl</span>
-        <p class="temperature">25</p>
-       <p><time>April 23<sup>rd</sup>, <span> Saturday</span></time></p>
-       <p><time>14:00</time></p>
+      <ul>
+          <li><p>Max: <span class="max">26</span><span class="metric">C</span></p></li>
+          <li><p>Min: <span class="min">12</span><span class="metric">C</span></p></li>
+          <li><p>Wind speed: <span class="wspeed">20</span><span class="spedd">Km/h</span></p></li>
+          <li><p>Feels like: <span class="max">24</span><span class="metric">C</span></p></li>
+
+
+      </ul>                
     <img src="#" class="weather-icon" alt="">
     
       </h4>
     </div>
 
     <!-- Celcius farenheit toggle button -->
-    <label class="metric">Celcius/Farenheight <input type="checkbox" name="" id="metric"> 
+    <label class="metric-btn">Celcius/Farenheight <input type="checkbox" name="" id="metric"> 
     <div class="switch"></div></label>
 
-    <!-- input field -->
-    <!-- replace button in the future -->
-   <div><input type="text" placeholder="Location" id="location-input"><button id="search-btn">search </button></div> 
     
       <!-- Weather forcast bottom jumbotron -->
 
-      <div id="forecast-card-deck">
-        <!-- card 1  -->
+      <!-- 
+        This section was designed for the foreccast section
+        But I could not find an API that offers It free of charge
+        <div id="forecast-card-deck">
+       card 1  
           <div class="card">
             <h5 class="fore-cast-title">Sunday</h5>
             <p class="max-forecast">28</p>
             <p class="min-forecast">15</p>
           </div>
-        <!-- card 2  -->
+        card 2  
         <div class="card">
           <h5 class="fore-cast-title">Monday</h5>
           <p class="max-forecast">28</p>
           <p class="min-forecast">15</p>
         </div>
-        <!-- card 3  -->
+        card 3  
         <div class="card">
           <h5 class="fore-cast-title">Tuesday</h5>
           <p class="max-forecast">28</p>
           <p class="min-forecast">15</p>
         </div>
-        <!-- card 4  -->
+        card 4  
         <div class="card">
           <h5 class="fore-cast-title">wednesday</h5>
           <p class="max-forecast">28</p>
           <p class="min-forecast">15</p>
         </div>
         
-        </div>
+        </div> -->
 
 
 </body>
