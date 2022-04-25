@@ -28,13 +28,18 @@ body{
     margin: 0;
     padding: 0%;
 }
+#city-name-container{
+    position: relative;
+}
+
+.cityname{
+    display: inline-block;
+} 
 
 #weather-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    border: 3px solid red;
 
     padding: 15px;
     max-width: 300px;
@@ -42,10 +47,16 @@ body{
    
 }
 
+ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+
 .metric-btn{
-    position: absolute;
-    left:10%;
-    top: 15px;
+    position: relative;
+    /* left:10%;
+    top: 15px; */
 }
 
 /* #forecast-card-deck{

@@ -17,12 +17,19 @@
 
 </div>
 <div id="city-name-container">
-  <p class="cityname">Miami</p>
+  <ul>
+    <li> <p class="cityname">Miami</p> &nbsp; <span class="country">Br</span></li>
+
+  </ul>
+ 
 </div>
 
   <!-- input field -->
     <!-- replace button in the future -->
-    <div><input type="text" placeholder="Location" id="location-input"><button id="search-btn">search </button></div> 
+    <div><input type="text" placeholder="Location" id="location-input"><button id="search-btn">search </button> <br/>
+      <label class="metric-btn">Farenheight? <input type="checkbox" name="" id="metric"> 
+      <div class="switch"></div></label>
+  </div> 
     
 
 <!-- weather card -->
@@ -30,8 +37,8 @@
       <ul>
           <li><p>Max: <span class="max">26</span><span class="metric">C</span></p></li>
           <li><p>Min: <span class="min">12</span><span class="metric">C</span></p></li>
-          <li><p>Wind speed: <span class="wspeed">20</span><span class="spedd">Km/h</span></p></li>
-          <li><p>Feels like: <span class="max">24</span><span class="metric">C</span></p></li>
+          <li><p>Wind speed: <span class="w-speed">20</span><span class="spedd">Km/h</span></p></li>
+          <li><p>Feels like: <span class="feels-like">24</span><span class="metric">C</span></p></li>
 
 
       </ul>                
@@ -40,11 +47,7 @@
       </h4>
     </div>
 
-    <!-- Celcius farenheit toggle button -->
-    <label class="metric-btn">Celcius/Farenheight <input type="checkbox" name="" id="metric"> 
-    <div class="switch"></div></label>
-
-    
+   
       <!-- Weather forcast bottom jumbotron -->
 
       <!-- 
