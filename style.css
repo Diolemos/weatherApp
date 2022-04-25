@@ -6,8 +6,8 @@ html{position: relative;}
 }
 .temp{
     position: absolute;
-    left: 75px;
-    top: 1px;
+    left: 137px;
+    top: 85px;
     font-size: 34px;
     font-weight: 900;
 }
@@ -75,3 +75,27 @@ ul{
     text-align: center;
   
 } */
+
+.clear-sky-day-bg{
+    background-image: url("images/clear-sky-day.jpg");
+    }
+ .clear-sky-nite.bg{
+     background-image: url("images/clear-sky-night.jpg");
+ }   
+
+ .clouds-day-bg{
+     background-image: url("images/few-clouds-day.jpg");
+
+ }
+
+ .clouds-nite-bg{
+     background-image: url("images/few-clouds-night.jpg");
+ }
+
+ .rain-bg{
+     background-image: url("images/rain-night-and-day.jpg");
+ }
+
+ .winter-wonderland-bg{
+     background-image: url("images/snow.jpg");
+ }
