@@ -68,7 +68,8 @@ function updateBackground(){
            body.setAttribute("class","clear-sky-day-bg")
            break;
         case "01n":
-            body.setAttribute("class","clear-sky-nite.bg")
+            body.setAttribute("class","clear-sky-nite-bg")
+            break;
         case "02d": 
         case "03d":
         case "04d":
