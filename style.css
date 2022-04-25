@@ -45,7 +45,7 @@ body{
     max-width: 300px;
     position: relative;
     background: rgb(131,131,143);
-background: linear-gradient(90deg, rgba(131,131,143,0.7539390756302521) 0%, rgba(0,0,0,0.8743872549019608) 100%);
+background: linear-gradient(90deg, rgba(139, 139, 145, 0.754) 0%, rgba(126, 123, 123, 0.874) 100%);
    
 }
 
@@ -80,24 +80,30 @@ ul{
 
 .clear-sky-day-bg{
     background-image: url("images/clear-sky-day.jpg");
+    color: black
     }
  .clear-sky-nite-bg{
      background-image: url("images/clear-sky-night.jpg");
+     color: aliceblue;
  }   
 
  .clouds-day-bg{
      background-image: url("images/few-clouds-day.jpg");
+     color: aliceblue;
 
  }
 
  .clouds-nite-bg{
      background-image: url("images/few-clouds-night.jpg");
+     color: aliceblue;
  }
 
  .rain-bg{
      background-image: url("images/rain-night-and-day.jpg");
+     color: aliceblue;
  }
 
  .winter-wonderland-bg{
      background-image: url("images/snow.jpg");
+     color: white;
  }
